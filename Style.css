@@ -109,6 +109,7 @@ p
 	transition: transform 0.5s;
 	height: 150px;
 	color: white;
+	z-index=-1;
 	display: inline-block;
 	border-radius: 10px;
 	padding: 10px 15px;
