@@ -63,20 +63,7 @@ html::-webkit-scrollbar-thumb
 	display: inline;
 	align-items: center;
 }
-.navbar ul li::after{
-	content: '';
-	height: 3px;
-	width: 0;
-	background: #009688;
-	position: absolute;
-	left: 0;
-	bottom: -3px;
-	transition: 0.5s;
-}
-.navbar ul li:hover::after
-{
-	width:100%;
-}
+
 .content
 {
 	height: 78%;
