@@ -163,7 +163,7 @@ p
 {
 	color: skyblue;
 }
-.aot
+#aot
 {
 	z-index:99;
 	padding-left:10px;
@@ -175,7 +175,7 @@ p
 	box-sizing: border-box;
 	background-repeat: no-repeat;
 }
-.fm
+#fm
 {
 	
 	padding-left:10px;
@@ -187,7 +187,7 @@ p
 	box-sizing: border-box;
 	
 }
-.hxh
+#hxh
 {
 	padding-left:10px;
 	background-color: black;
@@ -196,17 +196,7 @@ p
 	cursor: pointer;
 	border-radius: 15px;
 }
-.op
-{
-	
-	padding-left:10px;
-	background-color: black;
-	background-position: center;
-	background-size: cover;
-	cursor: pointer;
-	border-radius: 15px;
-}
-.ns
+#op
 {
 	
 	padding-left:10px;
@@ -216,7 +206,7 @@ p
 	cursor: pointer;
 	border-radius: 15px;
 }
-.ds
+#ns
 {
 	
 	padding-left:10px;
@@ -226,16 +216,7 @@ p
 	cursor: pointer;
 	border-radius: 15px;
 }
-.jk
-{
-	padding-left:10px;
-	background-color: black;
-	background-position: center;
-	background-size: cover;
-	cursor: pointer;
-	border-radius: 15px;
-}
-.fs
+#ds
 {
 	
 	padding-left:10px;
@@ -245,7 +226,16 @@ p
 	cursor: pointer;
 	border-radius: 15px;
 }
-.dn
+#jk
+{
+	padding-left:10px;
+	background-color: black;
+	background-position: center;
+	background-size: cover;
+	cursor: pointer;
+	border-radius: 15px;
+}
+#fs
 {
 	
 	padding-left:10px;
@@ -255,7 +245,17 @@ p
 	cursor: pointer;
 	border-radius: 15px;
 }
-.dbz
+#dn
+{
+	
+	padding-left:10px;
+	background-color: black;
+	background-position: center;
+	background-size: cover;
+	cursor: pointer;
+	border-radius: 15px;
+}
+#dbz
 {
 	
 	padding-left:10px;
