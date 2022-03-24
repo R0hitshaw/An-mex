@@ -165,7 +165,7 @@ p
 }
 .aot
 {
-	z-index:1;
+	z-index:99;
 	padding-left:10px;
 	background-color: black;
 	background-position: center;
