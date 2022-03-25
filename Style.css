@@ -114,11 +114,9 @@ p
 	height: 150px;
 	color: white;
 	z-index:-1;
-	position:relative;
-	display: inline-flex;
+	display: inline-block;
 	border-radius: 10px;
 	padding: 10px 15px;
-	float:left;
 	box-sizing: border-box;
 	cursor: pointer;
 	margin: 10px 15px;
