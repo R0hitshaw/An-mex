@@ -39,7 +39,7 @@ html
 	overflow-y: none;
 	scroll-behavior: smooth;
 }
-.navbar
+#navbar
 {
 	height: 12%;
 	display: flex;
