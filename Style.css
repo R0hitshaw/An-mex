@@ -11,15 +11,15 @@ html
 	scroll-padding-top:2rem;
 	scroll-behavior: smooth;
 }
-html::-webkit-scrollbar
+::-webkit-scrollbar
 {
 	width: .8rem;
 }
-html::-webkit-scrollbar-track
+::-webkit-scrollbar-track
 {
 	background:transparent;
 }
-html::-webkit-scrollbar-thumb
+::-webkit-scrollbar-thumb
 {
 	background:#fff;
 	border-radius: 5rem;
