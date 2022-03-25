@@ -86,7 +86,7 @@ p
 	color: white;
 	font-size: 20px;
 }
-#btn {
+#mybtn {
   display: none; 
   position: fixed; 
   bottom: 20px; 
@@ -101,7 +101,7 @@ p
   border-radius: 10px; 
   font-size: 18px; 
 }
-#btn:hover {
+#mybtn:hover {
   background-color: #555; 
 }
 .card
