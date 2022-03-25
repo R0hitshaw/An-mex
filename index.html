@@ -9,11 +9,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="Style.css">
+<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.4.1/css/all.">
+<script src="https://kit.fontawesome.com/8c60c2227b.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	
 	<div class="container">
-	<div class="navbar">
+	<div id="navbar">
 			<img src="2.jpg" class="logo">
 		</div>
 		<div class="content">
@@ -32,21 +34,6 @@
 					loop:true,
 					loopCount:Infinity
 				})
-
-				mybutton = document.getElementById("btn");
-	
-				window.onscroll = function() {scrollFunction()};
-
-				function scrollFunction() {
-  					if ( document.documentElement.scrollTop > 20) {
-    					mybutton.style.display = "block";
-  							} else {
-    						mybutton.style.display = "none";
-  								}
-							}
-				function xx() { 
-  				document.documentElement.scrollTop = 0;
-					}
 				</script>
 			<div class="mid">
 				<a href="#aot">
@@ -101,7 +88,7 @@
 				</a>
 		</div>
 	</div>
-	<button onclick="xx()" id="btn" title="Scroll Up"><span class="fa-solid fa-angles-up"></span></button>ss
+	<a href="#navbar" id="mybtn"><i class="fas fa-angle-double-up"></i></a>
 	<div id="aot">
 	<img src="s22.jpg" max-height="80%" width="100%">
 	<h2 style="color:white;">1.Attack on Titan</h2>
